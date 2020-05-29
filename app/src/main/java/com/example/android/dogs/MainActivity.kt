@@ -2,6 +2,7 @@ package com.example.android.dogs
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.databinding.DataBindingUtil
 import com.example.android.dogs.databinding.ActivityMainBinding
 
