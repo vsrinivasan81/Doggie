@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        welcomeObject = Welcome(applicationContext.getString(R.string.welcome_text))
+        welcomeObject = Welcome(getString(R.string.welcome_text))
         binding.welcomeObj = welcomeObject
     }
 }
