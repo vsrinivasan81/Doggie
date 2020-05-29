@@ -9,11 +9,12 @@ class MainActivity : AppCompatActivity() {
 
     data class Welcome (var helloText: String = "")
     private lateinit var binding: ActivityMainBinding
-    private var welcomeObject:Welcome = Welcome("Dog Lovers, Welcome !!!")
+    private lateinit var welcomeObject:Welcome
 
     override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        welcomeObject = Welcome(applicationContext.getString(R.string.welcome_text))
         binding.welcomeObj = welcomeObject
     }
 }
