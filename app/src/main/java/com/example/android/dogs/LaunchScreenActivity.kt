@@ -2,7 +2,6 @@ package com.example.android.dogs
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
 class LaunchScreenActivity: AppCompatActivity() {
@@ -13,6 +12,4 @@ class LaunchScreenActivity: AppCompatActivity() {
         startActivity(activityIntent)
         finish()
     }
-
-
 }
