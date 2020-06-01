@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Doggie</string>
     <string name="welcome_text">Dog Lovers, Welcome !!!</string>
+    <string name="alphabetic_category">I\'m a dog image</string>
+    <string name="click_text">Click the card to view pictures by dog breed</string>
+
+    <string name="category_af">A-F</string>
+    <string name="category_gl">G-L</string>
+    <string name="category_mr">M-R</string>
+    <string name="category_sz">S-Z</string>
+    <string name="help_text">Click on each card to reveal your favorite dog pictures by breed</string>
+
 </resources>

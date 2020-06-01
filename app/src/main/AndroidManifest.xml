@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/app_launcher_icon"
         android:supportsRtl="true">
         <activity
-            android:name="com.example.android.dogs.LaunchScreenActivity"
+            android:name="com.example.android.dogs.activity.LaunchScreenActivity"
             android:theme="@style/LaunchScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.dogs.MainActivity"
+            android:name="com.example.android.dogs.activity.MainActivity"
             android:theme="@style/AppTheme">
         </activity>
 
